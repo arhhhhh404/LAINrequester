@@ -51,7 +51,7 @@ int main(void) {
   if (!font) TTF_ExitWithError("Police TTF");
 
   SDL_Texture *background = NULL;
-  SDL_Surface *bg_surface = IMG_Load("./images/lain_request.jpg");
+  SDL_Surface *bg_surface = IMG_Load("./images/lain_request.jpeg");
   if (!bg_surface) IMG_ExitWithError("Background IMG");
 
   background = SDL_CreateTextureFromSurface(renderer, bg_surface);
